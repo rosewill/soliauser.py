@@ -1,0 +1,20 @@
+soliauser.py is a library that provies a python interface to some basic functionality of soliaonline.com.
+
+The requests libray is required for use! You can find installation locations at:
+http://docs.python-requests.org/en/latest/user/install/#install
+
+A sample program is provided below:
+
+testUser = soliaUser('megusta', 'mememes') # these accounts are banned
+testUser2 = soliaUser('jackojacko12', '123456')
+
+print(testUser2.login())
+print(testUser2.checkPrizeWheel())
+print(testUser2.clickPet('b5a'))
+print(testUser2.artComment('15211', 'Great effect', 'I really like your style'))
+print(testUser2.avatarComment('737', 'Cool fairy', 'This is a nice fairy'))
+print(testUser.login())
+testUser.setBB('TEXT HERE')
+print(testUser.postReply('41', '296457', 'Welcome to solia, you seem like a cool person, I hope you like it here.'))
+print(testUser.profileComment('88949', 'Sweet profile!'))
+print('Finished.')
