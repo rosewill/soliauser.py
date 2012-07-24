@@ -204,22 +204,3 @@ class soliaUser():
 			return 'Comment posted on profile ID ' + profileID + '.'
 		else:
 			return 'Posting comment on profile ID ' + profileID + ' failed.'
-
-''' Sample Code Below
-
-testUser = soliaUser('megusta', 'mememes') # these accounts are banned
-testUser2 = soliaUser('jackojacko12', '123456')
-
-
-print(testUser2.login())
-print(testUser2.checkPrizeWheel())
-print(testUser2.clickPet('b5a'))
-print(testUser2.artComment('15211', 'Great effect', 'I really like your style'))
-print(testUser2.avatarComment('737', 'Cool fairy', 'This is a nice fairy'))
-print(testUser.login())
-testUser.setBB('TEXT HERE')
-print(testUser.postReply('41', '296457', 'Welcome to solia, you seem like a cool person, I hope you like it here.'))
-print(testUser.profileComment('88949', 'Sweet profile!'))
-print('Finished.')
-
-'''
